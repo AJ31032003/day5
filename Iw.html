@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #top{
+            width: 100%;
+            height: 70px;
+            background-color: #3c425a;
+            margin: 0px 0px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #top>img+div{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            text-transform: uppercase;
+            justify-content: space-evenly;
+            color: white;
+            align-items: center;
+        }
+        #top>img+div>p:hover{
+            color: red;
+        }
+        #top+h1{
+            text-align: center;
+            color: #e94040;
+            text-transform: uppercase;
+            margin-top: 50px;
+        }
+        #main{
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 40px;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 150px;
+        }
+        #main>img{
+            width: 30%;
+            border-radius: 40px;
+
+        }
+        #top>img{
+            width:7%;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <img src="https://www.masaischool.com/img/navbar/logo.svg" alt="">
+        <div>
+            <p>Home</p>
+            <p>gallery</p>
+            <p>about</p>
+        </div>
+    </div>
+    <h1>Photo Gallery</h1>
+    <div id="main">
+        <img src="https://preview.colorlib.com/theme/pentax/img/project/1.jpg" alt="">
+        <img src="https://preview.colorlib.com/theme/pentax/img/blog/2.jpg" alt="">
+        <img src="https://preview.colorlib.com/theme/pentax/img/blog/3.jpg" alt="">
+        <img src="https://preview.colorlib.com/theme/pentax/img/blog/3.jpg" alt="">
+        <img src="https://preview.colorlib.com/theme/pentax/img/blog/2.jpg" alt="">
+        <img src="https://preview.colorlib.com/theme/pentax/img/project/1.jpg" alt="">
+    </div>
+</body>
+</html>
